@@ -46,3 +46,27 @@ ggplot(data=compare1_long,
 
 
 
+
+
+
+
+
+compare9<-as.data.frame(cbind(pm25_sites[, nn$id[38]], pm25_address[, nn$join_id[38]]))
+
+
+
+compare9$date<-rownames(pm25_address)
+
+
+colnames(compare9)<-c(nn$id[38], nn$join_id[38], "date")
+
+compare9_long <- melt(compare9, id="date")  
+
+compare9_long$date<-as.Date(compare9_long$date, format =  "%Y-%m-%d")
+
+ggplot(data=compare9_long,
+       aes(x=date, y=value, colour=variable)) +
+  geom_line(size=1)+ylab(expression(paste("PM2.5 concentrations (  ", mu, "g/",m^3,")")))
+
+
+
