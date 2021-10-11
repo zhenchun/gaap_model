@@ -1,7 +1,4 @@
 
-
-
-
 date<-pm25_fudan$date
 date<-date[-1]
 d<-date[seq(1,length(date),by=3)]
