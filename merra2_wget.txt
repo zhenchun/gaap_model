@@ -1,0 +1,1 @@
+wget --load-cookies C:\Users\zy125\wgetdown\urs_cookies --save-cookies C:\Users\zy125\wgetdown\urs_cookies --auth-no-challenge=on --keep-session-cookies --user=<your username> --ask-password --content-disposition <https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2_MONTHLY/M2TMNXAER.5.12.4/2015/>

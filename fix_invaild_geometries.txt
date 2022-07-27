@@ -1,0 +1,8 @@
+land use data has to be fixed on intersection as there are invaild geometries. (https://gis.stackexchange.com/questions/123685/intersection-postgis-topologyexception)
+
+one method to fix invaild geometry is to use qgis (https://www.qgistutorials.com/en/docs/3/handling_invalid_geometries.html)
+
+the reason for these invaild geometries is because (https://gis.stackexchange.com/questions/226955/qgis-raster-to-polygons-produce-invalid-geometries)
+
+
+running a 0 meter buffer can also fix the problem (https://anitagraser.com/2017/08/29/fixing-invalid-polygon-geometries/)

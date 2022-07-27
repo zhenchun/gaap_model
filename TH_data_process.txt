@@ -1,0 +1,16 @@
+TH means Tsinghua
+
+
+data source: 
+
+home directory: http://data.ess.tsinghua.edu.cn/
+
+version: 
+FROM-GLC version2 (2015_v1) download web URL (longitude, latitude): http://data.ess.tsinghua.edu.cn/fromglc2015_v1.html( !!! See: Classification system_2015_v1 )
+
+path:
+
+shanghai_THU_2015_4326 <<<<<<<<< shanghai_THU_2015_4499 <<<<<<shanghai_THU_2015_4499_fixed
+
+fix method is available from the document fix_invaild_geometries
+
